@@ -182,6 +182,11 @@ class BlueZone(object):
         self.endText.setPosition((-50, positions[1]+20))
         self.endText.setText(str(positions[1]))
 
+
+    def remove(self):
+        for item in [self.blue,self.arrow,self.endText,self.startText]:
+            item.setVisible(False)
+        
     def flip(self):
         self.color = BLUESCOLOR if not self.isOther else OTHERBLUESCOLOR
         self.blue.setFillColor(self.color) 
@@ -408,6 +413,7 @@ class BlueEdit(BaseEventTool):
             setattr(self.font.info, k, newZoneRanges)
             self.font.info.performUndo()
             self.currentlyUpdatingInfo = False
+                
 
     
     def selectClosestZoneEdge(self, point, keepSelection=False, distance=6):
@@ -453,11 +459,15 @@ class BlueEdit(BaseEventTool):
                 
     def removeSelectedZones(self):
         newZones = []
+        #self.container.clearSublayers()
         for zIdx, zone in enumerate(self.zones):
             if not zone.selected:
                 newZones.append(zone)
+            else:
+                zone.remove()
         self.zones = newZones
         self.applyZones()
+        
     
 
 installTool(BlueEdit())
