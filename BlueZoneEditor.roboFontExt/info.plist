@@ -17,12 +17,12 @@
 	<key>name</key>
 	<string>Blue Zone Editor</string>
 	<key>requiresVersionMajor</key>
-	<string>3</string>
+	<string>4</string>
 	<key>requiresVersionMinor</key>
-	<string>1</string>
+	<string>3</string>
 	<key>timeStamp</key>
-	<real>1542647313.9519501</real>
+	<real>1697398744.1898971</real>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 </dict>
 </plist>

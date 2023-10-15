@@ -13,7 +13,7 @@ resourcesPath = os.path.join(basePath, "resources")
 B = ExtensionBundle()
 
 B.name = "Blue Zone Editor"
-B.version = "1.2"
+B.version = "1.3"
 B.mainScript = "Blues.py"
 
 B.developer = "Andy Clymer"
@@ -21,8 +21,8 @@ B.developerURL = 'http://www.andyclymer.com/'
 
 B.launchAtStartUp = True
 B.addToMenu = []
-B.requiresVersionMajor = '3'
-B.requiresVersionMinor = '1'
+B.requiresVersionMajor = '4'
+B.requiresVersionMinor = '3'
 B.infoDictionary["html"] = True
 
 B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath, pycOnly=False)
