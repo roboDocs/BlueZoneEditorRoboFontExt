@@ -1,0 +1,10 @@
+name: Blue Zone Editor
+developer: Andy Clymer
+developerURL: http://www.andyclymer.com/
+launchAtStartUp: true
+mainScript: Blues.py
+version: '1.4'
+addToMenu: []
+html: true
+requiresVersionMajor: '4'
+requiresVersionMinor: '3'
