@@ -26,7 +26,7 @@ BLUESCOLOR = (c.redComponent(), c.greenComponent(), c.blueComponent(), c.alphaCo
 c = getDefaultColor("glyphViewOtherBluesColor")
 OTHERBLUESCOLOR = (c.redComponent(), c.greenComponent(), c.blueComponent(), c.alphaComponent())
 
-VIEWWIDTH = getDefault("glyphViewArtBoardHorizontalBorder") * 2
+VIEWWIDTH = getDefault("glyphViewHorizontalPadding", 3000) * 2
 
 KEY = "com.andyclymer.blueZoneEditor"
     
