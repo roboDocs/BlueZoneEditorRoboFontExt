@@ -4,7 +4,7 @@ by Andy Clymer, [www.andyclymer.com](http://www.andyclymer.com)
 
 updated for RF4.4 by Connor Davenport [www.connordavenport.com](http://www.connordavenport.com)
 
-![Blue Zone Editor Icon](/resources/icon.png?raw=true)
+![Blue Zone Editor Icon](source/resources/icon.png?raw=true)
 
 Download it here, or find it in the Mechanic 2 extension
 
