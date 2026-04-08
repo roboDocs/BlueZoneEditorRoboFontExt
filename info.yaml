@@ -3,7 +3,7 @@ developer: Andy Clymer
 developerURL: http://www.andyclymer.com/
 launchAtStartUp: true
 mainScript: Blues.py
-version: '1.4.1'
+version: '1.4.2'
 addToMenu: []
 html: true
 requiresVersionMajor: '4'

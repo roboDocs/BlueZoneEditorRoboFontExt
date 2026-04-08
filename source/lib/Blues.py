@@ -16,7 +16,7 @@ updated for RF4.4 by Connor Davenport, October 2023
 
 BLUEKEYS = ["postscriptBlueValues", "postscriptOtherBlues"]
 
-c = getDefaultColor("glyphViewSelectionMarqueColor")
+c = getDefaultColor("glyphViewSelectionMarqueeColor")
 MARQUECOLOR = (c.redComponent(), c.greenComponent(), c.blueComponent(), c.alphaComponent())
 
 c = getDefaultColor("glyphViewBluesColor")
